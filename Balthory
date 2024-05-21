@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanessa Balthory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4cccc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #f4cccc;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #e5b8b8;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #a64d79;
+        }
+        footer {
+            background-color: #f4cccc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vanessa Balthory</h1>
+        <p>Comunicadora Social y Periodista</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Vanessa Balthory, una comunicadora social y periodista de 26 años de Colombia, actualmente viviendo en Dubái. Me apasiona la producción audiovisual y soy experta en edición de videos. Además, el diseño gráfico es una de mis fortalezas y algo que realmente disfruto.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Proyectos</h2>
+            <p>Aquí podrás encontrar algunos de mis proyectos destacados en el ámbito de la producción audiovisual y diseño gráfico.</p>
+            <!-- Añade aquí los detalles de tus proyectos -->
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Bienvenido a mi blog donde comparto mis pensamientos, experiencias y consejos sobre comunicación, periodismo, y diseño gráfico.</p>
+            <!-- Añade aquí las entradas de tu blog -->
+        </section>
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Puedes ponerte en contacto conmigo a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: <a href="mailto:vanessa@example.com">vanessa@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/vanessa-balthory" target="_blank">linkedin.com/in/vanessa-balthory</a></li>
+                <!-- Añade aquí otros medios de contacto -->
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Vanessa Balthory. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
